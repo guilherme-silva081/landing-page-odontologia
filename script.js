@@ -245,7 +245,7 @@ function showAlert(message, type) {
 
 // WhatsApp integration
 function openWhatsApp(message = 'Olá! Gostaria de agendar uma consulta.') {
-    const phone = '5581987023658';
+    const phone = '5511999999999';
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phone}?text=${encodedMessage}`, '_blank');
 }
