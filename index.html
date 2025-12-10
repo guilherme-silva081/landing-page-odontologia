@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultório Odontológico - Sorriso Perfeito</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Consultório odontológico especializado em tratamentos dentários. Agende sua consulta e tenha um sorriso saudável e bonito.">
+    <meta name="keywords" content="dentista, odontologia, clareamento, implante, ortodontia, consultório dentário">
+    <meta name="author" content="OdontoPlus">
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-tooth me-2"></i>OdontoPlus
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#antes-depois">Antes/Depois</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Seu Sorriso é Nossa Prioridade</h1>
+            <p>Tratamentos odontológicos de qualidade com tecnologia de ponta e equipe especializada</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn btn-primary btn-lg">Agende Sua Consulta</a>
+                <a href="#servicos" class="btn btn-outline-light btn-lg">Conheça Nossos Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="diferenciais section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="diferencial-item">
+                        <i class="bi bi-shield-check"></i>
+                        <h4>Qualidade Garantida</h4>
+                        <p>Materiais de primeira linha e procedimentos seguros</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="diferencial-item">
+                        <i class="bi bi-clock"></i>
+                        <h4>Atendimento Rápido</h4>
+                        <p>Agilidade no atendimento e resolução de problemas</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="diferencial-item">
+                        <i class="bi bi-gear"></i>
+                        <h4>Tecnologia Avançada</h4>
+                        <p>Equipamentos modernos para tratamentos precisos</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="diferencial-item">
+                        <i class="bi bi-heart"></i>
+                        <h4>Atendimento Humanizado</h4>
+                        <p>Cuidamos de você com atenção e carinho</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Dr. João Silva</h2>
+                    <p class="mb-4">Formado pela Universidade de São Paulo (USP) com especialização em Ortodontia e Implantodontia. Com mais de 15 anos de experiência, dedica-se a oferecer tratamentos personalizados e de alta qualidade.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Mestrado em Odontologia Estética</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Especialista em Implantes Dentários</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Certificado em Ortodontia Invisível</li>
+                        <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Membro da Associação Brasileira de Odontologia</li>
+                    </ul>
+                    <div class="mt-4">
+                        <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dr. João Silva" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma ampla gama de tratamentos odontológicos para cuidar da sua saúde bucal</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-brightness-high"></i>
+                        </div>
+                        <h4>Clareamento Dental</h4>
+                        <p>Clareamento profissional para um sorriso mais branco e brilhante com resultados imediatos.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-braces"></i>
+                        </div>
+                        <h4>Ortodontia</h4>
+                        <p>Aparelhos fixos, móveis e alinhadores invisíveis para correção do posicionamento dental.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-implant"></i>
+                        </div>
+                        <h4>Implantes Dentários</h4>
+                        <p>Reposição de dentes perdidos com implantes de titânio de alta qualidade e durabilidade.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-droplet"></i>
+                        </div>
+                        <h4>Limpeza e Prevenção</h4>
+                        <p>Profilaxia completa, aplicação de flúor e orientações para manter a saúde bucal em dia.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-capsule"></i>
+                        </div>
+                        <h4>Próteses Dentárias</h4>
+                        <p>Próteses fixas e removíveis para recuperar a função mastigatória e estética do sorriso.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-heart-pulse"></i>
+                        </div>
+                        <h4>Tratamento de Canal</h4>
+                        <p>Endodontia de precisão para salvar dentes com problemas na polpa dentária.</p>
+                        <a href="#contato" class="btn btn-outline-primary mt-3">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Antes e Depois -->
+    <section id="antes-depois" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Antes e Depois</h2>
+                <p>Confira alguns resultados dos nossos tratamentos</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="before-after-card">
+                        <div class="image-comparison">
+                            <div class="before">
+                                <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Antes" class="img-fluid">
+                                <div class="label">Antes</div>
+                            </div>
+                            <div class="after">
+                                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Depois" class="img-fluid">
+                                <div class="label">Depois</div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5>Clareamento Dental</h5>
+                            <p>Resultado após 2 sessões de clareamento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="before-after-card">
+                        <div class="image-comparison">
+                            <div class="before">
+                                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Antes" class="img-fluid">
+                                <div class="label">Antes</div>
+                            </div>
+                            <div class="after">
+                                <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Depois" class="img-fluid">
+                                <div class="label">Depois</div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5>Ortodontia</h5>
+                            <p>Tratamento ortodôntico completo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Nossos Pacientes Dizem</h2>
+                <p>Confira a opinião de quem já passou por nossos tratamentos</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Excelente atendimento! O Dr. João é muito atencioso e competente. Meu tratamento de clareamento superou minhas expectativas."</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria Santos" class="client-avatar">
+                            <div>
+                                <h5>Maria Santos</h5>
+                                <p>Paciente há 3 anos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Fiz implante dentário e o resultado foi fantástico. Recuperei minha autoestima e posso sorrir sem preocupação. Recomendo!"</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Carlos Oliveira" class="client-avatar">
+                            <div>
+                                <h5>Carlos Oliveira</h5>
+                                <p>Paciente há 1 ano</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="testimonial-text">"Minha filha fez tratamento ortodôntico e o resultado foi excelente. Equipe muito profissional e ambiente acolhedor."</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ana Costa" class="client-avatar">
+                            <div>
+                                <h5>Ana Costa</h5>
+                                <p>Mãe de paciente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Agende sua consulta ou tire suas dúvidas</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h4 class="mb-4">Informações de Contato</h4>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Endereço</h5>
+                                <p>Rua das Flores, 123 - Centro<br>São Paulo - SP, 01234-567</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div>
+                                <h5>Telefone</h5>
+                                <p>(11) 3456-7890</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>contato@odontoplus.com.br</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="contact-icon">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <div>
+                                <h5>Horário de Funcionamento</h5>
+                                <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container mb-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075426745292!2d-46.65342658440711!3d-23.565734367638155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1629999408000!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-forms">
+                        <!-- Formulário de Contato -->
+                        <form id="contact-form" class="bg-white p-4 rounded shadow mb-4">
+                            <h4 class="mb-4">Envie uma Mensagem</h4>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nome Completo</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Serviço de Interesse</label>
+                                <select class="form-select" id="service" required>
+                                    <option value="" selected disabled>Selecione um serviço</option>
+                                    <option value="clareamento">Clareamento Dental</option>
+                                    <option value="ortodontia">Ortodontia</option>
+                                    <option value="implantes">Implantes Dentários</option>
+                                    <option value="limpeza">Limpeza e Prevenção</option>
+                                    <option value="proteses">Próteses Dentárias</option>
+                                    <option value="canal">Tratamento de Canal</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                        </form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3"><i class="bi bi-tooth me-2"></i>OdontoPlus</h4>
+                    <p>Cuidando do seu sorriso com excelência e tecnologia de ponta há mais de 15 anos.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <div class="footer-links">
+                        <h5>Links Rápidos</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#servicos">Serviços</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="footer-links">
+                        <h5>Serviços</h5>
+                        <ul>
+                            <li><a href="#servicos">Clareamento Dental</a></li>
+                            <li><a href="#servicos">Ortodontia</a></li>
+                            <li><a href="#servicos">Implantes Dentários</a></li>
+                            <li><a href="#servicos">Limpeza e Prevenção</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="footer-links">
+                        <h5>Contato</h5>
+                        <ul>
+                            <li><i class="bi bi-geo-alt me-2"></i>Rua das Flores, 123</li>
+                            <li><i class="bi bi-telephone me-2"></i>(11) 3456-7890</li>
+                            <li><i class="bi bi-envelope me-2"></i>contato@odontoplus.com.br</li>
+                            <li><i class="bi bi-clock me-2"></i>Seg-Sex: 8h-18h</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2023 OdontoPlus. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5581987023658?text=Olá! Gostaria de agendar uma consulta." class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript Personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
