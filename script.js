@@ -94,7 +94,7 @@ function handleContactSubmit(e) {
     const textoCodificado = encodeURIComponent(texto);
     
     // Número do WhatsApp (substitua pelo número do consultório)
-    const numeroWhatsApp = '5581987023658';
+    const numeroWhatsApp = '559999999999';
     
     // Abrir WhatsApp
     window.open(`https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`, '_blank');
